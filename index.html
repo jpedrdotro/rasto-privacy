@@ -1,0 +1,72 @@
+<!doctype html>
+<html lang="pt-PT">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Rasto · Política de Privacidade</title>
+<style>
+  :root { --bg: #0b1207; --fg: #e9eedf; --muted: #9aa58c; --accent: #c7ff3d; --card: #141d0e; }
+  @media (prefers-color-scheme: light) {
+    :root { --bg: #f7f9f2; --fg: #18200f; --muted: #5d6852; --accent: #4f7a00; --card: #ffffff; }
+  }
+  * { box-sizing: border-box; }
+  body { margin: 0; background: var(--bg); color: var(--fg); font: 17px/1.6 -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif; }
+  main { max-width: 720px; margin: 0 auto; padding: 48px 16px 80px; }
+  h1 { font-size: 2.2rem; line-height: 1.15; margin: 0 0 4px; }
+  h2 { font-size: 1.2rem; margin: 36px 0 8px; color: var(--accent); }
+  p, li { color: var(--fg); }
+  .muted { color: var(--muted); }
+  table { width: 100%; border-collapse: collapse; margin: 12px 0; background: var(--card); border-radius: 12px; overflow: hidden; }
+  th, td { text-align: left; vertical-align: top; padding: 10px 12px; border-bottom: 1px solid color-mix(in srgb, var(--muted) 25%, transparent); font-size: 0.95rem; }
+  th { color: var(--muted); font-weight: 600; }
+  tr:last-child td { border-bottom: 0; }
+  a { color: var(--accent); }
+  hr { border: 0; border-top: 1px solid color-mix(in srgb, var(--muted) 30%, transparent); margin: 48px 0; }
+  @media (max-width: 560px) { table, thead, tbody, tr, th, td { display: block; } thead { display: none; } td { border: 0; padding: 4px 12px; } tr { padding: 8px 0; border-bottom: 1px solid color-mix(in srgb, var(--muted) 25%, transparent); } td:first-child { font-weight: 600; } }
+</style>
+</head>
+<body>
+<main>
+  <h1>Política de Privacidade do Rasto</h1>
+  <p class="muted">Última atualização: 23 de outubro de 2026</p>
+
+  <p>O Rasto é um jogo de escondidas na vida real: caçadores contra fugitivos, com a localização dos fugitivos partilhada em momentos definidos de cada ronda. Esta página explica que dados a app usa, para quê e durante quanto tempo.</p>
+
+  <h2>Que dados recolhemos</h2>
+  <table>
+    <thead><tr><th>Dado</th><th>Para quê</th><th>Quem vê</th></tr></thead>
+    <tbody>
+      <tr><td>Nome que escreves</td><td>Identificar-te no jogo</td><td>Os jogadores do mesmo jogo</td></tr>
+      <tr><td>Identificador anónimo</td><td>Saber que jogador és, sem conta nem email</td><td>Ninguém (uso interno)</td></tr>
+      <tr><td>Localização de quem cria o jogo</td><td>Centro da zona de jogo</td><td>Os jogadores do mesmo jogo</td></tr>
+      <tr><td>Localização dos fugitivos, só nos momentos de cada pista</td><td>Dar pistas aos caçadores</td><td>Os jogadores do mesmo jogo</td></tr>
+    </tbody>
+  </table>
+  <p>A tua posição contínua fica apenas no teu telemóvel. Só é enviada a posição do instante de cada pista, e só durante uma ronda em curso. Se as pistas estiverem desligadas no jogo, nenhuma posição de fugitivo é enviada.</p>
+  <p>Não pedimos email, telefone nem conta. Não usamos publicidade, análise de utilização nem rastreio entre apps, e não vendemos nem partilhamos dados com terceiros para esses fins.</p>
+
+  <h2>Localização em segundo plano</h2>
+  <p>Se autorizares "Sempre", a app continua a receber a localização com o ecrã bloqueado, mas apenas enquanto uma ronda está a decorrer. Fora de uma ronda a app não usa a localização em segundo plano. Podes mudar esta autorização a qualquer momento nas Definições do iPhone.</p>
+
+  <h2>Onde ficam os dados e durante quanto tempo</h2>
+  <p>Os dados de cada jogo ficam guardados no Google Firebase (Cloud Firestore), em servidores na União Europeia. Os jogos são privados: só entra quem tiver o código de 6 caracteres. Cada jogo é apagado automaticamente 7 dias depois de ser criado.</p>
+
+  <h2>Os teus direitos</h2>
+  <p>Ao abrigo do RGPD podes pedir acesso, correção ou eliminação dos teus dados, ou opor-te ao seu tratamento. Como não há contas, indica o código do jogo e o nome que usaste. Também podes sair de um jogo no lobby, o que apaga a tua entrada nesse jogo.</p>
+
+  <h2>Crianças</h2>
+  <p>O Rasto partilha localização com outros jogadores. Recomendamos que menores de 16 anos joguem apenas com pessoas que conhecem e com autorização de um adulto responsável.</p>
+
+  <h2>Contacto</h2>
+  <p>Responsável: João Almeida · <a href="mailto:hello@itsjoao.com">hello@itsjoao.com</a></p>
+
+  <hr>
+
+  <h1 lang="en">Rasto Privacy Policy (English)</h1>
+  <div lang="en">
+    <p>Rasto is a real-world hide-and-seek game. It stores the name you type, an anonymous identifier, the game creator's location (as the centre of the play area) and runners' locations only at the moment of each clue during a live round. These are visible only to players in the same game. Your continuous location stays on your phone. There are no accounts, ads, analytics or cross-app tracking.</p>
+    <p>Background location ("Always") is used only while a round is in progress. Game data is stored in Google Firebase (Cloud Firestore) in the European Union and deleted automatically 7 days after the game is created. You can request access to or deletion of your data at <a href="mailto:hello@itsjoao.com">hello@itsjoao.com</a>.</p>
+  </div>
+</main>
+</body>
+</html>
